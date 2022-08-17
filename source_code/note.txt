@@ -1,0 +1,15 @@
+<div class="navbar">
+            <ul class= "nav navbar-right">
+              <li>
+                <?php
+                  $keranjang='keranjang :'.$this->cart->total_items
+                    ().'items'
+                    ?>
+                    <?php echo anchor('user/detail_keranjang',$keranjang)  ?>    
+    
+
+
+
+                <div class="sidebar-brand-text mx-3">TOKO ONLINE</div>
+class="img-profile rounded-circle" 
+<?php echo anchor('user/detail_produk/' . $brg->id_barang);?>
